@@ -1,104 +1,35 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Smart</title>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+	<title>OverTranslate</title>
+	<link rel="shortcut icon" href="icon.png" type="image/x-icon">
 	<link rel="stylesheet" href="style.css">
-	<script src="https://use.fontawesome.com/062dfb753d.js"></script>
 </head>
 <body>
-<div class="over-main">
-	<div class="container-fluid main">
-		<div class="arrow-block">
-			<div>
-				<img class="arrow" src="images/arrow-3414.png">
-			</div>
-		</div>
-		<div class="container main-c">
-			<img class="man" src="images/man.png">
-			<div class="lang">
-				<img src="images/rus.png">
-				<div>Рус</div>
-				<span></span>
-				<img src="images/de.png">
-				<div>De</div>
-			</div>
-			<div class="navigate">
-				<div class="nav-part">НАЧАЛО</div>
-				<span></span>
-				<div class="nav-part">УБЕДИТЕСЬ</div>
-				<span></span>
-				<div class="nav-part">УЗНАЙТЕ</div>
-				<span></span>
-				<div class="nav-part">ПОСМОТРИТЕ</div>
-				<span></span>
-				<div class="nav-part">НАБЕРИТЕ</div>
-			</div>
-			<div class="name">Алекс Шоу</div>
-			<div class="text-name">
-				<div class="text t1">Нет одинаковых историй любви,</div>
-				<div class="text t2">каждая свадьба неповторима!</div>
-			</div>
-			<div class="circle">
-				<div class="circ-icon">
-					<div>
-						<img class="circ-img" width="60px" src="images/126471.png">
-					</div>
-				</div>
-				<div class="circ-icon">
-					<div>
-						<img class="circ-img" width="60px" src="images/1600.png">
-					</div>
-				</div>
-				<div class="circ-icon">
-					<div>
-						<img class="circ-img" width="60px" src="images/gift-box-icon-2.png">
-					</div>
-				</div>
-				<div class="circ-icon">
-					<div>
-						<img class="circ-img" width="60px" src="images/51454-200.png">
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="container-fluid description">
-		<div class="container data">
-			<div class="navigate">
-				<div class="nav-part">НАЧАЛО</div>
-				<span></span>
-				<div class="nav-part">УБЕДИТЕСЬ</div>
-				<span></span>
-				<div class="nav-part">УЗНАЙТЕ</div>
-				<span></span>
-				<div class="nav-part">ПОСМОТРИТЕ</div>
-				<span></span>
-				<div class="nav-part">НАБЕРИТЕ</div>
-			</div>
-			<div class="container desc">
-				<div class="img-desc">
-					<img src="images/celebrate.png">
-					<div class="pf1"></div>
-					<div class="pf2"></div>
-				</div>
-				<div class="well">
-					<div class="w1">Привет! Меня зовут Алекс Балаганов. И после Вашей свадьбы молодежь пригласит меня скорее всего продолжить ночь в баре, а бабушка обнимет и скажет какой же я молодец!</div>
-					<div class="w2">Каждая свадьба должна быть неповторима. Предолагаю для каждого праздника, для каждой истории любви особенные моменты, которые Ваши гости будут вспоминать с улыбками и через 20 лет после праздника!</div>
-					<div class="w3">Как будет выглядеть Ваша свадьба, какие фишки, конкурсы будут на ней? Для меня это главные вопросы, на которые мы найдем ответы вместе.</div>
-				</div>
-			</div>
-		</div>
-		<div class="slider">
-			
-		</div>
-	</div>
-</div>
+
+<form>
+
+		<!-- Hidden Required Fields -->
+		<input type="hidden" name="project_name" value="Site Name">
+		<input type="hidden" name="admin_email" value="admin@mail.com">
+		<input type="hidden" name="form_subject" value="Form Subject">
+		<!-- END Hidden Required Fields -->
+
+		<input type="text" name="Name" placeholder="You name..." required><br>
+		<input type="text" name="E-mail" placeholder="You E-mail..." required><br>
+		<input type="text" name="Phone" placeholder="You phone..."><br>
+		<button>Send</button>
+
+	</form>
+
+</body>
+</html>
 <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
 <script src="script.js"></script>
 </body>
 </html>
