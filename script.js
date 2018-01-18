@@ -1,22 +1,22 @@
-// $('.b1').on('click',function(){
-// 	$('.blackout').addClass('show');
-// 	$('.modal-window').removeClass('show-w');
-// 	$('.mw1').addClass('show-w');
-// });
-// $('.b2').on('click',function(){
-// 	$('.blackout').addClass('show');
-// 	$('.modal-window').removeClass('show-w');
-// 	$('.mw2').addClass('show-w');
-// });
-// $('.b3').on('click',function(){
-// 	$('.blackout').addClass('show');
-// 	$('.modal-window').removeClass('show-w');
-// 	$('.mw3').addClass('show-w');
-// });
-// $('.blackout').on('click',function(){
-// 	$('.blackout').removeClass('show');
-// 	$('.modal-window').removeClass('show-w');
-// });
+$('.b1').on('click',function(){
+	$('.blackout').addClass('show');
+	$('.modal-window').removeClass('show-w');
+	$('.mw1').addClass('show-w');
+});
+$('.b2').on('click',function(){
+	$('.blackout').addClass('show');
+	$('.modal-window').removeClass('show-w');
+	$('.mw2').addClass('show-w');
+});
+$('.b3').on('click',function(){
+	$('.blackout').addClass('show');
+	$('.modal-window').removeClass('show-w');
+	$('.mw3').addClass('show-w');
+});
+$('.blackout').on('click',function(){
+	$('.blackout').removeClass('show');
+	$('.modal-window').removeClass('show-w');
+});
 $('.btn-scroll').on('click',function(){
 	$('body,html').animate({scrollTop:$('.main-leven').offset().top},1500,'swing');
 });
